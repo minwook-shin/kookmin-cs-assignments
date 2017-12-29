@@ -1,0 +1,26 @@
+import turtle
+
+s = turtle.Screen()
+t = turtle.Turtle()
+u = turtle.Turtle()
+k = turtle.Turtle()
+
+t.pensize(3)
+t.circle(100)
+t.penup()
+t.goto(-60, 60)
+t.pendown()
+t.setheading(-60)
+t.circle(70,120)
+u.pensize(12)
+u.penup()
+u.goto(-50,110)
+u.pendown()
+u.dot()
+k.pensize(12)
+k.penup()
+k.goto(50,110)
+k.pendown()
+k.dot()
+
+turtle.done()
