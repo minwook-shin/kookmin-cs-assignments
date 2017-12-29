@@ -1,6 +1,8 @@
 # kookmin-cs-assignments
 대학 생활동안 모아둔 과제들을 정리한 저장소
 
+(기존 개별적으로 존재하던 저장소를 합쳤습니다.)
+
 ## kookmin-object-oriented-programming
 
 2017 Kookmin University CS, object-oriented-programming java assignment Repository 
