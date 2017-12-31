@@ -15,7 +15,13 @@ required to run the assignment file.
 
 2017 Kookmin University CS, scientific and computational thinking's assignment Repository 
 
-## kookmin-sw-proj2-2 
+## kookmin-sw-proj-1
+
+2017 Kookmin University CS, Software-Project 1 Repository 
+
+## kookmin-sw-proj-2
+
+2017 Kookmin University CS, Software-Project 2 Cooperative Repository 
 
 조별 프로젝트 [저장소](https://github.com/minwook-shin/kookmin-sw-proj2-2)에서 확인하실 수 있습니다.
 
