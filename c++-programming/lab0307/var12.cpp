@@ -9,6 +9,5 @@ int main()
     var2 = 49;
 
     var1 += var2;
-
     cout << "var1=" << var1 <<endl;
 }
