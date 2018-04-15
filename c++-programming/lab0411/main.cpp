@@ -1,5 +1,3 @@
-//20171640 신민욱
-
 #include <iostream>
 using namespace std;
 
