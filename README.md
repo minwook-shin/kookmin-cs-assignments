@@ -7,9 +7,23 @@
 
 2018 Kookmin University CS, cpp-programming assignment Repository 
 
+2018 Kookmin University CS, c++ programming battleship game project assignment Repository 
+
+battleship game project assignment Repository는 아직 비공개 저장소입니다. 양해부탁드립니다.
+
 ## kookmin-data-structure
 
 2018 Kookmin University CS, data-structure assignment Repository 
+
+## kookmin-numerical-analysis
+
+2018 Kookmin University CS, numerical-analysis assignment Repository 
+
+## kookmin-web-client-computing
+
+2018 Kookmin University CS, web-client-computing Term project Cooperative Repository 
+
+텀 프로젝트 [저장소](https://github.com/minwook-shin/web-client-term-project)에서 확인하실 수 있습니다.
 
 ## kookmin-object-oriented-programming
 
