@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>셀렉터</title>
+    <style>
+        body {
+            background-color: cyan
+        }
+
+        h3 {
+            font-size: 30px;
+            color: forestgreen
+        }
+
+        hr {
+            background-color: black;
+            border: 0;
+            height: 0.5px;
+        }
+
+        div#center{text-align: center}
+
+        div#center > strong {font-size: 20px;background-color: yellow; color: blue}
+
+        p > strong {font-size: 20px; color: red}
+
+        em{color: green}
+
+        div.indent {text-indent: 80px }
+    </style>
+</head>
+
+<body class="main">
+    <h3>얼굴</h3>
+    <hr>
+    <div id="center">
+        <strong>박인희</strong>
+    </div>
+    <div class="indent">
+        <p>
+            <em>길</em>을 걷고 산들 무엇하리
+            <strong>꽃</strong>이 내가 아니듯 내가
+            <strong>꽃</strong>이 될 수 없는 지금...</p>
+    </div>
+</body>
+
+</html>

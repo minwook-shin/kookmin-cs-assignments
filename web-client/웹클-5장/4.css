@@ -1,0 +1,34 @@
+html, body { margin: 0; height: 100%; }
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center
+}
+
+header {
+    width: 100%; 
+    height: 15%; 
+	background: yellow;
+}
+nav { 
+    width: 20%;
+    height: 70%; 
+    float: left;
+	background: orange;
+}
+section {
+    width: 80%; 
+    height: 70%; 
+    float: right;
+	background: aqua;
+}
+
+footer { 
+    width: 100%; 
+    height: 15%; 
+    clear: both; 
+	background: mediumpurple;
+}

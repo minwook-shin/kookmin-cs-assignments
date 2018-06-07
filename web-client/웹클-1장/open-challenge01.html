@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- mata tag -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title -->
+        <title>hello</title>
+        <!-- CSS -->
+        <style>
+            body {background: linen;color: green;margin-left: 40px;margin-right: 40px}
+            h1{color: darkred;text-align: center;}
+            hr{height: 5px; border: solid gray;background-color: gray}
+            span{color: blue; font-size: 20px}
+            div{text-align: center}
+        </style>
+        <!-- JS -->
+        <script>
+            function show(){
+                document.getElementById("screen").src = "minwook-shin-github-profile.jpeg";
+            }
+            function hide(){
+                document.getElementById("screen").src = "";
+            }
+        </script>
+    </head>
+    <!-- BODY -->
+    <body>
+        <!-- mouse event -->
+        <h1 onmouseover="show()" onmouseout="hide()">minwook-shin</h1>
+        <hr>
+        <div><img id="screen" src=""></div>
+        <p>
+            저는 대한민국에 태어나서 소프트웨어를 전공하는 학생입니다. 
+            제가 현재 수강중인 과목중 하나는 <span>웹 클라이언트 컴퓨팅</span>이고, 
+            잘하는 것은 아직 <span>없습니다</span>.
+        </p>
+    </body>
+</html>

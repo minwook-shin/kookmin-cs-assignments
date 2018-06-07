@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function test() {
+            var t = 0;
+            var arr1 = document.getElementsByClassName("q");
+            var arr2 = document.getElementsByClassName("a1");
+            for (i = 0; i < arr1.length; i++) {
+                var q = arr1[i].innerHTML;
+                var c = Math.floor(eval(q));
+                var a2 = arr2[i].value;
+                if (parseInt(a2) == c) {
+                    t += 1;
+                } else {
+                    t += 0;
+                    arr1[i].style.textDecoration = "line-through";
+                }
+            }
+            document.getElementById("score").innerHTML = t;
+        }
+
+        function create() {
+            var arr1 = document.getElementsByClassName("q");
+            var arr2 = document.getElementsByClassName("a1");
+            for (i = 0; i < arr1.length; i++) {
+                var n1 = Math.floor(Math.random() * 20) + 1;
+                var n2 = Math.floor(Math.random() * 20) + 1;
+                var o = Math.floor(Math.random() * 4);
+                var o1 = "+";
+                if (o == 0) {
+                    o1 = "+";
+                }
+                if (o == 1) {
+                    o1 = "-";
+                }
+                if (o == 2) {
+                    o1 = "*";
+                }
+                if (o == 3) {
+                    o1 = "/";
+                }
+                arr1[i].innerHTML = n1 + o1 + n2;
+                arr1[i].style.textDecoration = "none";
+                document.getElementById("score").innerHTML = 0;
+            }
+            setTimeout("test()", 10000);
+        }
+    </script>
+</head>
+
+<body onload="create()">
+    <h3>산수 문제를 풀어 봅시다.</h3>
+    문제는 자동으로 생성되며, 10초가 지나면 자동 채점됩니다.
+    <hr>
+    <form>
+        <table>
+            <tr>
+                <td class="q"></td>
+                <td>
+                    <input class="a1" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="q"></td>
+                <td>
+                    <input class="a1" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="q"></td>
+                <td>
+                    <input class="a1" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="q"></td>
+                <td>
+                    <input class="a1" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="create()">다시</button>
+                </td>
+                <td>
+                    <span id="score">0</span>
+
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+        }
+        td {font-size: 5em;}
+    </style>
+    <script type="text/javascript">
+
+        var arr = []
+        for (let i = 0; i < 3; i++) {
+            var result = Math.floor(Math.random() * 3) + 0;
+            arr[i] = result;
+        }
+        var bool1 = false;
+        var bool2 = false;
+        var bool3 = false;
+
+        function test1() {
+            var a = document.getElementById("1");
+            if (bool1 == false) {
+                a.innerHTML = arr[0];
+                bool1 = true;
+            }
+
+            if (bool1 == true && bool2 == true && bool3 == true) {
+                if (arr[0] == arr[1] && arr[1] == arr[2] && arr[0] == arr[2]) {
+                    var a = document.getElementById("4");
+                    a.innerHTML = "Success(click here to do again)";
+
+                } else {
+                    var a = document.getElementById("4");
+                    a.innerHTML = "fail(click here to do again)";
+                }
+            }
+        }
+        function test2() {
+            var a = document.getElementById("2");
+            if (bool2 == false) {
+                a.innerHTML = arr[1];
+                bool2 = true;
+            }
+
+            if (bool1 == true && bool2 == true && bool3 == true) {
+                if (arr[0] == arr[1] && arr[1] == arr[2] && arr[0] == arr[2]) {
+                    var a = document.getElementById("4");
+                    a.innerHTML = "Success(click here to do again)";
+
+                } else {
+                    var a = document.getElementById("4");
+                    a.innerHTML = "fail(click here to do again)";
+                }
+            }
+        }
+        function test3() {
+            var a = document.getElementById("3");
+            if (bool3 == false) {
+                a.innerHTML = arr[2];
+                bool3 = true;
+            }
+
+            if (bool1 == true && bool2 == true && bool3 == true) {
+                if (arr[0] == arr[1] && arr[1] == arr[2] && arr[0] == arr[2]) {
+                    var a = document.getElementById("4");
+                    a.innerHTML = "Success(click here to do again)";
+
+                } else {
+                    var a = document.getElementById("4");
+                    a.innerHTML = "fail(click here to do again)";
+                }
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <h3>갬블링 게임</h3>
+    <p>각 숫자를 클릭하면 0에서 2사이의 난수로 바뀝니다. 모두 같은 수가 나오면 승리합니다.</p>
+    <hr>
+    <table>
+        <th>
+            <td id="1" onclick="test1()">0
+            </td>
+            <td id="2" onclick="test2()">0</td>
+            <td id="3" onclick="test3()">0</td>
+        </th>
+    </table>
+    <span id="4" onclick="location.reload()"></span>
+</body>
+
+</html>

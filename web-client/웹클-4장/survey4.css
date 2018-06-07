@@ -1,0 +1,37 @@
+header {
+    height: 15%;
+}
+
+footer {
+    height: 15%;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-family: "휴면 편지체";
+    font-size: 1em;
+    text-indent: 1em;
+}
+
+section {
+    background-color: mediumvioletred
+}
+
+span {
+    color: blue;
+    font-weight: bold
+}
+
+body {
+    background-color: aliceblue
+}
+
+footer {
+    background-color: orange;
+    border-radius: 20px
+}

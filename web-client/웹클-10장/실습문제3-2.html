@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+		function test(obj) {
+			var i = obj.selectedIndex;
+			var site = obj.options[i].value;
+			window.open(site, "win");
+		}
+	</script>
+</head>
+
+<body>
+	<h3>옵션 선택으로 사이트 접속</h3>
+	윈도우 하나를 공유합니다.
+	<hr>
+	<form>
+		<p>접속할 사이트</p>
+		<select onchange="test(this)">
+			<option value="http://www.naver.com">네이버</option>
+			<option value="http://www.google.com">구글</option>
+			<option value="http://www.oracle.com">오라클</option>
+		</select>
+	</form>
+</body>
+
+</html>

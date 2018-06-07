@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>마우스 휠을 이용한 이미지 확대/축소</title>
+    <script>
+        function w(e, img) {
+            if (e.wDelta > 0) {
+                img.width -= img.width * 0.05;
+                img.height -= img.height * 0.05;
+            }
+            else {
+                img.width += img.width * 0.05;
+                img.height += img.height * 0.05;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h3>마우스 휠을 이용한 이미지 확대/축소</h3>
+    <hr> 이미지 위에 휠을 위로 굴리면 이미지가 축소되고 아래로 굴리면 이미지가 확대 됩니다.
+    <br>
+    <img onwheel="w(event, this)" src="desktop.png" width="1000px" heigh= "500px">
+</body>
+
+</html>

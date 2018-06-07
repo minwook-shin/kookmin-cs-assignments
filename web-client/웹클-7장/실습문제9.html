@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>book 객체 만들기</title>
+</head>
+
+<body>
+    <h3>book 객체 만들기</h3>
+    <hr>
+    <script>
+        var book = new Object();
+        book.title = "HTML5";
+        book.author = "황기태";
+        book.price = 20000;
+        document.write("new Object()를 이용하는 객체 생성 -> ");
+        document.write("book : ");
+        document.write(book.title + ", ");
+        document.write(book.author + ", ");
+        document.write(book.price + "<br>");
+
+        var book = {
+            title: "HTML5",
+            author: "황기태",
+            price: 20000
+        };
+        document.write("리터럴 표기법을 이용하는 객체 생성 -> ");
+        document.write("book : ");
+        document.write(book.title + ", ");
+        document.write(book.author + ", ");
+        document.write(book.price + "<br>");
+
+        function Book() {
+            this.title = "HTML5";
+            this.author = "황기태";
+            this.price = 20000;
+        }
+        var book = new Book();
+        document.write("프로토타입을 이용하는 객체 생성 -> ");
+        document.write("book : ");
+        document.write(book.title + ", ");
+        document.write(book.author + ", ");
+        document.write(book.price + "<br>");
+    </script>
+
+</body>
+
+</html>

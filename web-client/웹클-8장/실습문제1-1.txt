@@ -1,0 +1,19 @@
+    document
+        |
+        |
+    html
+        |
+    -------------
+    |       |
+    |       |
+head        body
+    |       |
+title      ------------
+            |   |   |
+            h3 hr   ol
+                    |
+                    -------------
+                    |   |   |   |
+                    li  li  li  li
+                                |
+                                strong

@@ -1,0 +1,54 @@
+caption {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    height: 15%;
+}
+
+.footer {
+    height: 15%;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+body {
+    background-color: aliceblue
+}
+
+header {
+    border-bottom-style: solid;
+    border-bottom-width: 1px
+}
+
+ul {
+    border-style: solid;
+    border-width: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "휴면 편지체";
+    font-size: 1em;
+    text-indent: 1em;
+}
+
+h2 {
+    color: blue;
+    text-shadow: 3px 3px dodgerblue
+}
+
+footer {
+    background-color: orange;
+    border-radius: 20px
+}
