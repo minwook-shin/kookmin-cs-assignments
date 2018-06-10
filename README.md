@@ -9,7 +9,7 @@
 
 2018 Kookmin University CS, c++ programming battleship game project assignment Repository 
 
-battleship game project assignment Repository는 아직 비공개 저장소입니다. 양해부탁드립니다.
+배틀쉽 게임 프로젝트 [저장소](https://github.com/minwook-shin/kookmin-cpp-battleship-project)에서 확인하실 수 있습니다.
 
 ## kookmin-data-structure
 
