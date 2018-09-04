@@ -3,6 +3,14 @@
 
 (기존 개별적으로 존재하던 저장소를 합쳤습니다.)
 
+## applied-statistics
+
+2018 Kookmin University CS, applied-statistics assignment Repository 
+
+## discrete-mathematics
+
+2018 Kookmin University CS, discrete-mathematics assignment Repository 
+
 ## kookmin-c++-programming
 
 2018 Kookmin University CS, cpp-programming assignment Repository 
