@@ -11,6 +11,8 @@
 
 2018 Kookmin University CS, discrete-mathematics assignment Repository 
 
+professor's code https://github.com/cognut/Discrete.Mathematics 
+
 ## kookmin-c++-programming
 
 2018 Kookmin University CS, cpp-programming assignment Repository 
