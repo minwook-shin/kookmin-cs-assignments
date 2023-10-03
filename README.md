@@ -13,6 +13,10 @@
 
 팀 프로젝트 [저장소](https://github.com/kmu-system-newest-tech-23-team-b) 에서 확인하실 수 있습니다.
 
+## Opensource software
+
+팀 프로젝트 [저장소](https://github.com/teammoim) 에서 확인하실 수 있습니다.
+
 ## applied-statistics
 
 2018 Kookmin University CS, applied-statistics assignment Repository 
