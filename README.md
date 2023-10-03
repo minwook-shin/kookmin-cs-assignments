@@ -3,6 +3,16 @@
 
 (기존 개별적으로 존재하던 저장소를 합쳤습니다.)
 
+## algorithm
+
+2023 Kookmin University CS, algorithm assignment Repository 
+
+## kmu-system-newest-tech-23-team-b
+
+2023 Kookmin University CS, system-newest-tech assignment Repository 
+
+팀 프로젝트 [저장소]([https://github.com/minwook-shin/web-client-term-project](https://github.com/kmu-system-newest-tech-23-team-b))에서 확인하실 수 있습니다.
+
 ## applied-statistics
 
 2018 Kookmin University CS, applied-statistics assignment Repository 
