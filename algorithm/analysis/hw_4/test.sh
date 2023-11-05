@@ -1,0 +1,1 @@
+for f in *.py; do echo "=$f=" && cat bs_input.txt | python3.9 "$f"; done
