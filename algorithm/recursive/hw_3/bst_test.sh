@@ -1,0 +1,1 @@
+cat bst_input.txt | python3.9 bst_hw.py
